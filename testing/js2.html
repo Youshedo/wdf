@@ -2,11 +2,6 @@
 	<head>
 		<title>Test</title>
 	</head>
-	<body>
-	<ul>
-  		<li><font face="Arial"><a href="js_test_home.html">HOME</a></font></li>
-	</ul>	
-	</body>
 	<script><!--
 	
 	var fc = location.search;
@@ -14,10 +9,10 @@
 	else { fc = 0; }
 	
 	if (fc % 2 == 0) {
-			document.write('<frameset rows=*,* bordercolor=blue>');
+			document.write('<frameset rows=*,* bordercolor=black>');
 	}
 	else {
-			document.write('<frameset cols=*,* bordercolor=red>');
+			document.write('<frameset cols=*,* bordercolor=white>');
 	}
 	fc ++;
 	document.write('<frame src=js2.html?' + fc + ' frameborder=0 scrolling=no>');
@@ -25,4 +20,5 @@
 	document.write('</frameset>');
 	// -->
 	</script>
+	
 </html>
