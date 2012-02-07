@@ -1,0 +1,24 @@
+<html>
+	<head>
+		<title>Test</title>
+	</head>
+	<script><!--
+	
+	var fc = location.search;
+	if (fc.length > 1) { fc = fc.substring(1); }
+	else { fc = 0; }
+	
+	if (fc % 2 == 0) {
+			document.write('<frameset rows=*,* bordercolor=black>');
+	}
+	else {
+			document.write('<frameset cols=*,* bordercolor=white>');
+	}
+	fc ++;
+	document.write('<frame src=js2.html?' + fc + ' frameborder=0 scrolling=no>');
+	document.write('<frame src=js2.html?' + fc + ' frameborder=1 scrolling=no>');
+	document.write('</frameset>');
+	// -->
+	</script>
+	
+</html>
