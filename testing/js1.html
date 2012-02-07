@@ -1,0 +1,41 @@
+<html>
+	<head>
+		<title>Test</title>
+	</head>
+	<body>
+	<script><!--
+	var fc = location.search;
+	if (fc.length > 1) { fc = fc.substring(1); }
+	else { fc = 1; }
+	if (fc == 0) { document.write('<body></body>'); }
+
+	else {
+	   if (fc % 2 == 0) {
+	      document.write('<body bgcolor=#000000 text=#FF00FF link=#0000FF vlink=#FF0000>');
+	      current = fc / 2 + 1;
+   	   document.write(current + ' frames.<br>');
+   	   fc++;
+   	   document.write('Click_Here<a href=js1.html?' + fc);
+   	   current++;
+   	   document.write('</body>');
+   	}
+   	else {
+   	   if (fc % 4 == 1) {
+   	      document.write('<frameset rows=*,5 bordercolor=#ff0000 #00ff00 #0000ff >');
+   	   }
+   	   else {
+   	      document.write('<frameset cols=*,5 bordercolor=#ff0000 #00ff00 #0000ff >');
+   	   }
+   	   fc ++;
+   	   document.write('<frame src=js1.html?' + fc + ' frameborder=0 scrolling=no>');
+   	   document.write('<frame src=js1.html?0 frameborder=1 scrolling=no>');
+   	   document.write('</frameset>');
+   		}
+	}	
+	</script>
+	
+	<ul>
+  		<li><font face="Arial"><a href="js_test_home.html">HOME</a></font></li>
+	</ul>	
+	</body>
+</html>
