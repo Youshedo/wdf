@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalogue>
+	<image>
+		<url>images/example1.jpg</url>
+		<caption>parrot</caption>
+	</image>
+	<image>
+		<url>images/example2.jpg</url>
+		<caption>turtles</caption>
+	</image>
+	<image>
+		<url>images/example3.jpg</url>
+		<caption>parrot</caption>
+	</image>
+	<image>
+		<url>images/example4.jpg</url>
+		<caption>duck</caption>
+	</image>
+	<image>
+		<url>images/example5.jpg</url>
+		<caption>deer</caption>
+	</image>
+</catalogue>
