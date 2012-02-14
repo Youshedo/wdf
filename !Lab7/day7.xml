@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<laptop_collection>
+	<laptop>
+		<brand>HP</brand>
+		<modle>pavilion</modle>
+		<life>?-2009 </life>
+		<wherenow>through at wall in my sleep but still works and gave to best friend</wherenow>
+	</laptop>
+	<laptop>
+		<brand>DELL</brand>
+		<modle>AlienWare M-15X</modle>
+		<life>2009-?</life>
+		<wherenow>has died 3 times but i brought it back from the grave each time</wherenow>
+	</laptop>
+	<laptop>
+		<brand>MAC</brand>
+		<modle>MacBook Pro</modle>
+		<life>2012-?</life>
+		<wherenow>i use it in class</wherenow>
+	</laptop>
+</laptop_collection>
